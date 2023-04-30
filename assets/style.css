@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #current-weather, #forecast {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  #current-weather-details {
+    display: inline-block;
+  }
+  
+  #current-weather-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #forecast-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forecast-day {
+    width: calc(20% - 20px);
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .forecast-day h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .forecast-day img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .forecast-day p {
+    margin: 10px 0 0;
+    font-size: 16px;
+  }
+  
