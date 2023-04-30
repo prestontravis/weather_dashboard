@@ -14,7 +14,7 @@ THEN I am again presented with current and future conditions for that city
 
 # Deployed URL  
 
-https://trayprey.github.io/weather_dashboard/
+https://prestontravis.github.io/weather_dashboard/
 
 # Screenshot
 
